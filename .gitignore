@@ -1,0 +1,45 @@
+﻿# Build outputs
+output/
+build/
+out/
+*.obj
+*.o
+*.elf
+*.map
+*.lst
+*.asm
+*.bin
+
+# Local firmware, preferably publish through GitHub Releases
+firmware/*.fwpkg
+
+# Toolchains and SDK packages
+tools/
+toolchain/
+*.zip
+
+# Temporary and backup files
+*.backup*
+*.bak
+*.tmp
+gcc_probe.*
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+
+# Local source backups
+*.bak*
+*_backup.c
+*.code-workspace
+
+# Local repair backups
+*.backup_remove_rtt_*
